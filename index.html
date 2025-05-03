@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Курс «Барбер с нуля»</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #000; color: #fff; }
+    header, section, footer { padding: 40px 20px; max-width: 800px; margin: auto; }
+    header { background: #111; text-align: center; }
+    header h1 { font-size: 2.5em; margin-bottom: 10px; }
+    .sub { font-size: 1.2em; color: #bbb; }
+    .btn { display: inline-block; margin-top: 20px; padding: 10px 25px; background: #c00; color: #fff; text-decoration: none; border-radius: 5px; }
+    .price { font-size: 1.4em; color: #0cf; margin: 10px 0; }
+    .block { margin-top: 40px; }
+    footer { background: #111; text-align: center; font-size: 0.9em; color: #777; }
+    input, textarea { width: 100%; padding: 10px; margin: 10px 0; border-radius: 5px; border: none; }
+    form button { padding: 10px 20px; background: #0cf; color: #000; border: none; border-radius: 5px; cursor: pointer; }
+    a { color: #0cf; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Курс «Барбер с нуля»</h1>
+    <p class="sub">Научись профессии за 22 занятия и начни зарабатывать уже после обучения</p>
+    <a class="btn" href="#form">Записаться</a>
+  </header>
+
+  <section>
+    <h2>📍 Где проходит курс?</h2>
+    <p>Очный курс в Москве, м. Беговая<br>ул. Хорошёвский проезд 17/2</p>
+  </section>
+
+  <section>
+    <h2>💈 Что ты получишь</h2>
+    <ul>
+      <li>22 практических занятия с нуля</li>
+      <li>Полный разбор инструментов, техник и фейда</li>
+      <li>Поддержка и наставничество</li>
+      <li>Первый клиент уже во время курса</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>💵 Стоимость курса</h2>
+    <p class="price">60 000 рублей</p>
+    <p>Можно оплатить в рассрочку.</p>
+  </section>
+
+  <section id="form" class="block">
+    <h2>📬 Запишись на курс</h2>
+    <form action="https://formspree.io/f/mayvbdgy" method="POST">
+      <input type="text" name="name" placeholder="Ваше имя" required>
+      <input type="tel" name="phone" placeholder="Телефон или Telegram" required>
+      <textarea name="message" placeholder="Ваш вопрос (если есть)"></textarea>
+      <button type="submit">Отправить</button>
+    </form>
+  </section>
+
+  <section class="block">
+    <h2>📞 Контакты</h2>
+    <p>Телефон: <a href="tel:+79998887766">+7 (999) 888-77-66</a><br>
+    Telegram / WhatsApp: @barber_afzun</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Барбер с нуля — Все права защищены
+  </footer>
+</body>
+</html>
